@@ -13,3 +13,5 @@ function getComputerChoice() {
 }
 
 console.log(getComputerChoice());
+
+// Humanchoice Funktion erstellen
