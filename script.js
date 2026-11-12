@@ -4,14 +4,21 @@ let randomNumber = Math.floor(Math.random() * 3) + 1;
 // Computerchoice Funktion erstellen
 function getComputerChoice() {
   if (randomNumber === 1) {
-    return "Rock";
+    return "rock";
   } else if (randomNumber === 2) {
-    return "Paper";
+    return "paper";
   } else {
-    return "Scissors";
+    return "scissors";
   }
 }
 
 console.log(getComputerChoice());
 
 // Humanchoice Funktion erstellen
+function getHumanChoice() {
+  return prompt("Insert Rock, Paper or Scissors").toLowerCase();
+}
+
+const humanChoice = getHumanChoice();
+
+console.log(humanChoice);
