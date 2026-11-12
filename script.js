@@ -22,3 +22,7 @@ function getHumanChoice() {
 const humanChoice = getHumanChoice();
 
 console.log(humanChoice);
+
+//scores festlegen
+let computerScore = 0;
+let humanScore = 0;
