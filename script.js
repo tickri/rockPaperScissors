@@ -1,8 +1,7 @@
-// Zufallszahl zwischen 1-3 erstellen
-let randomNumber = Math.floor(Math.random() * 3) + 1;
-
 // Computerchoice Funktion erstellen
 function getComputerChoice() {
+// Zufallszahl zwischen 1-3 erstellen
+  const randomNumber = Math.floor(Math.random() * 3) + 1;
   if (randomNumber === 1) {
     return "rock";
   } else if (randomNumber === 2) {
